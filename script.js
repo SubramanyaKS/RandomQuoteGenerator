@@ -77,7 +77,6 @@ fetch("https://type.fit/api/quotes")
 		displayQuote()
 });
 
-
 // Adding an onclick listener for the button
 function newQuote(){
 	
