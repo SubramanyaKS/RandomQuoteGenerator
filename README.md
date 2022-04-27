@@ -6,6 +6,6 @@ I will customize the design later.
 ## Technology used
 * HTML
 * CSS
-* Python
+* JavaScript
 
 Thanks to Geeks For Geeks
