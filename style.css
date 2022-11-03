@@ -8,13 +8,16 @@ body{
 	min-height:100vh;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
-	background-image: linear-gradient(to right bottom, #800000, #fc1404a8);
+	/* background-image: linear-gradient(to right bottom, #800000, #fc1404a8); */
+	background:#000;
 }
+
 	
 .quote-box{
 	padding:3rem;
 	transition: 0.5s;
 	transition-timing-function: ease-in;
+	background:#ff0000;
 }
 	
 .text{
@@ -23,7 +26,8 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	font-family: 'Roboto', sans-serif;
-	background-image: linear-gradient(to right bottom, #800000, #fc1404a8);
+	background: #00ff00;
+	/* background-image: linear-gradient(to right bottom, #800000, #fc1404a8); */
 	color: transparent;
 	-webkit-background-clip: text;
 }
@@ -57,8 +61,9 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-image: linear-gradient(to right bottom, #042f5f,#0d80fc
-	);
+	background:#00ffdd;
+	/* background-image: linear-gradient(to right bottom, #042f5f,#0d80fc
+	); */
 	color: transparent;
 	-webkit-background-clip: text;
 }
@@ -84,9 +89,10 @@ left: 27%;
 	position: absolute;
 	transition: all .8s ease;
 	backface-visibility: hidden;
-	box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
+	box-shadow: 0rem 1.5rem 4rem #00ff00;
 	border-radius: .5rem;
-	background-image: linear-gradient(to right bottom, #F6F0EA,#F1DFD1);
+	background:#000000;
+	/* background-image: linear-gradient(to right bottom, #F6F0EA,#F1DFD1); */
 }
 
 .block__back {
