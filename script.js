@@ -17,7 +17,7 @@ const button = document.querySelectorAll(".new-quote");
 
 const blockFront = document.querySelector(".block__front");
 const blockBack = document.querySelector(".block__back");
-
+const message=new SpeechSynthesisUtterance();
 const authorFront = authors[0];
 const authorBack = authors[1];
 
@@ -37,6 +37,8 @@ const displayQuote = () =>{
 
 	// Stores the quote present at the randomly generated index
 	let quote = data[index].text;
+	//message.text=quota;
+	//speechSynthesis.speak(message);
 
 	// Stores the author of the respective quote
 	let author = data[index].author;
@@ -47,10 +49,14 @@ const displayQuote = () =>{
 	}
 
 	// Replacing the current quote and the author with a new one
+	
+	message.text=quote+" by"+author;
+	speechSynthesis.speak(message);
 
 	if(front){
 		// Changing the front if back-side is displayed
 		textFront.innerHTML = quote;
+		
 		authorFront.innerHTML = author;
 	}else{
 		// Changing the back if front-side is displayed
@@ -74,6 +80,7 @@ fetch("https://type.fit/api/quotes")
 		this.data = data;
 
 		// Displaying the quote When the Webpage loads
+		
 		displayQuote()
 });
 
