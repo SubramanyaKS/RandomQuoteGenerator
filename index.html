@@ -15,20 +15,20 @@
 
         <!-- Loading Open Sans Font from Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
-        
+
     </head>
     <body id="body">
         <div>
-        <h1 style="color: #00ff00;">Random Quote Generator</h1>
+        <h1>Random Quote Generator</h1>
         <!-- Quote Box -->
         <div class="block text-center">
-        
+
         <!-- Front part of the Quote Box -->
         <div class = "quote-box block__main block__front">
 
         <!-- Quote to be Displayed Here -->
         <span class = "quote">
-            
+
             <!-- Hyphen is Displayed -->
             <i class="fas fa-2x fa-quote-left"></i>
 
@@ -36,15 +36,18 @@
             <span class = "text">
             Quote To be Displayed Here
             </span>
+            <i class="fas fa-2x fa-quote-right"></i>
 
         </span>
-            
+
         <!-- Author to be Displayed Here -->
         <div class = "author">
             Author to be Displayed Here
         </div>
         <a class = "new-quote btn btn-default"
             onclick="newQuote()">New Quote</a>
+            <a class = "new-quote btn btn-default"
+            onclick="talk()">Talk</a>
         </div>
 
         <!-- Back Part of the Quote Box -->
@@ -52,7 +55,7 @@
 
         <!-- Quote to be Displayed Here -->
         <span class = "quote">
-            
+
             <!-- Hyphen is Displayed -->
             <i class="fas fa-2x fa-quote-left"></i>
 
@@ -60,9 +63,10 @@
             <span class = "text">
             Quote To be Displayed Here
             </span>
+            <i class="fas fa-2x fa-quote-right"></i>
 
         </span>
-            
+
         <!-- Author to be Displayed Here -->
         <div class = "author">
             Author to be Displayed Here
@@ -70,10 +74,12 @@
             <!-- Button -->
             <a class = "new-quote btn btn-default "
                 onclick="newQuote()">New Quote</a>
+                <a class = "new-quote btn btn-default"
+            onclick="talk()">Talk</a>
         </div>
     </div>
     </div>
     <script src="script.js"></script>
     </body>
-	
+
 </html>
