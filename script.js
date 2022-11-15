@@ -1,47 +1,39 @@
-// Global Variable used to store the quotes
-// fetched from the API
 var data;
 let front = true;
 
-// Getting the front and the back author boxes
 const authors = document.querySelectorAll(".author");
-
-// Getting the front and the back texts
 const texts = document.querySelectorAll(".text");
-
-// Getting the body
 const body = document.getElementById("body");
-
-// Getting the buttons
 const button = document.querySelectorAll(".new-quote");
-
 const blockFront = document.querySelector(".block__front");
 const blockBack = document.querySelector(".block__back");
 const message=new SpeechSynthesisUtterance();
 const authorFront = authors[0];
 const authorBack = authors[1];
-
 const textFront = texts[0];
 const textBack = texts[1];
 
 const buttonFront = button[0];
 const buttonBack = button[1];
+var quote;
+var author;
+
+const talk =()=>{
+	message.text=quote+" by"+author;
+	speechSynthesis.speak(message);
+}
 
 
 // An arrow function used to get a quote randomly
 const displayQuote = () =>{
 
-	// Generates a random number between 0
-	// and the length of the dataset
 	let index = Math.floor(Math.random()*data.length);
-
-	// Stores the quote present at the randomly generated index
-	let quote = data[index].text;
+	quote = data[index].text;
 	//message.text=quota;
 	//speechSynthesis.speak(message);
 
 	// Stores the author of the respective quote
-	let author = data[index].author;
+	author = data[index].author;
 
 	// Making the author anonymous if no author is present
 	if(!author){
@@ -50,8 +42,8 @@ const displayQuote = () =>{
 
 	// Replacing the current quote and the author with a new one
 	
-	message.text=quote+" by"+author;
-	speechSynthesis.speak(message);
+	//message.text=quote+" by"+author;
+	//speechSynthesis.speak(message);
 
 	if(front){
 		// Changing the front if back-side is displayed
