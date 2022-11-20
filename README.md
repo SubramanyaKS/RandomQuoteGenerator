@@ -1,6 +1,6 @@
 # Random Quote Generator
 
-This is an webpage which generate Random Quote.This is for my practise purpose only.
+This is an webpage which generate Random Quote using API and also implemented the voice over quotes.
 First phase completed.
 
 ### Technology used
