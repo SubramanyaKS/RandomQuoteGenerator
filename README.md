@@ -1,7 +1,12 @@
 
 # Random Quote Generator
 
+<<<<<<< HEAD
 This is an webpage which generate Random Quote using API and also implemented the voice over quotes.The First Phase development is completed.
+=======
+This is an webpage which generate Random Quote using API and also implemented the voice over quotes.
+First phase completed.
+>>>>>>> 5c32e408b475a6b7f989d9c6a2976ff8f0cf876d
 
 ## Tech Stack
 
@@ -23,6 +28,7 @@ This is an webpage which generate Random Quote using API and also implemented th
 └─ style.css
 ```
 
+<<<<<<< HEAD
 ## Installation
 
 You can install the project with 2 method
@@ -67,6 +73,10 @@ You can see the project demo in  below link:
 If you have any feedback, please reach out to us at [email](connectwithsubbu@gmail.com)
 
 If you like this don't forget to ⭐ the repository.
+=======
+
+### Demo.
+>>>>>>> 5c32e408b475a6b7f989d9c6a2976ff8f0cf876d
 
 
 Thank You for visiting
