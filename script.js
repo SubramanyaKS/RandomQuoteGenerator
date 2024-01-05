@@ -39,3 +39,17 @@ const displayQuote1 = () =>{
 function newQuote1(){
 	displayQuote1();
 }
+function tweetWithText() {
+	// Replace the 'YOUR_TEXT_HERE' with the desired tweet text
+	
+	let a = author.split(",")
+	let auth= a[0]
+	console.log(auth)
+	var tweetText = encodeURIComponent(quote+"-"+auth);
+
+	// Construct the Twitter Web Intent URL
+	var tweetIntentUrl = "https://twitter.com/intent/tweet?text=" + tweetText;
+
+	// Set the href attribute of the link
+	document.getElementById("tweetLink").href = tweetIntentUrl;
+}
