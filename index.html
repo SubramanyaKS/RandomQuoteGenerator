@@ -7,7 +7,7 @@
     <link rel="icon" href="./images/logo2.png" type="image/x-icon">
     <title>Random Quote Generator</title>
     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous"/>
-    <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"crossorigin="anonymous">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
@@ -41,7 +41,8 @@
                 onclick="newQuote1()">New Quote</a>
                 <a class = "new-quote btn btn-default"
                 onclick="talk()">Talk <i class="fa fa-volume-up" aria-hidden="true"></i></a>
-          </div>
+                <a class = "new-quote btn btn-default" id="tweetLink"  onclick="tweetWithText()" href="#" target="_blank">Tweet <i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+            </div>
 
       </div>
       <script src="script.js"></script>
