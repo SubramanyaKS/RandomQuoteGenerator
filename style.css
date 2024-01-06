@@ -26,10 +26,9 @@ body{
 	transition: 0.5s;
 	transition-timing-function: ease-in;
 	font-family: 'Roboto', sans-serif;
-	background: #00ff00;
 	/* background-image: linear-gradient(to right bottom, #800000, #fc1404a8); */
-	color: transparent;
-	-webkit-background-clip: text;
+	color: #00ff00;
+	/* -webkit-background-clip: text; */
 }
 
 .quote{
@@ -46,6 +45,25 @@ body{
 	margin-top: 5px;
 	/*background-image: linear-gradient(to right bottom, #ed4264a8, #69e6fca8);*/
 	background: #00ff00;
+}
+.button-container{
+	display: flex;
+	justify-content: space-between;
+}
+.x-button{
+	background-color: black;
+	color: white;
+	padding: 10px 20px; /* Adjust padding as needed */
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+	transition: box-shadow 0.3s ease;
+	cursor: pointer;
+}
+.x-button:hover{
+
+	background-color:#00ff00;
+	box-shadow: 0 8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .text-center{
