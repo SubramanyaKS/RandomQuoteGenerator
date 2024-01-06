@@ -8,7 +8,7 @@
     <title>Random Quote Generator</title>
     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous"/>
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"rel="stylesheet">
 
@@ -19,7 +19,7 @@
           <h1 style="color: #00ff00;">Random Quote Generator</h1>
       </div>
       <div class="block text-center">
-          <div class="quote-box block__main block__front">
+          <div class="quote-box">
             <span class = "quote ">
 
                 <!-- Hyphen is Displayed -->
@@ -37,18 +37,22 @@
             <div class = "author">
                 Author to be Displayed Here
             </div>
-            <a class = "new-quote btn btn-default"
-                onclick="newQuote1()">New Quote</a>
                 
             <div class="button-container">
 
                 <a class = "x-button btn btn-default"
                 onclick="talk()">Talk <i class="fa fa-volume-up" aria-hidden="true"></i></a>
+                <a class = "new-quote btn btn-default"
+                onclick="newQuote1()">New Quote</a>
                 <a class = "shadow-lg x-button btn btn-dark text-light" id="tweetLink"  onclick="tweetWithText()" href="#" target="_blank">Tweet <i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
             </div>
             </div>
 
       </div>
-      <script src="script.js"></script>
+     
+      <script src="./js/script.js"></script>
+      <div class="footer text-center">
+        Developed by Subramanya. Powered by Type.fit
+      </div>
   </body>
 </html>
