@@ -1,6 +1,12 @@
 # Random Quote Generator
 
-This is an webpage which generate Random Quote using API and also implemented the voice over quotes.The First Phase development is completed.
+A simple web app that displays random quotes. Get inspired, motivated, or just amused with a click of a button!
+
+## Features
+
+- Click the "New Quote" button to fetch a new random quote.
+- Beautifully styled interface with a focus on readability.
+- Share your favorite quotes on social media (only twitter).
 
 ## Tech Stack
 
@@ -63,8 +69,12 @@ You can see the project demo in  below link:
  - [Geeks for Geeks](https://www.geeksforgeeks.org/)
  - [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
 
-## Feedback
 
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Feedback
 
 If you have any feedback, please reach out to us at [email](connectwithsubbu@gmail.com)
 
