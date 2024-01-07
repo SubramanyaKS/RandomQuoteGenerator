@@ -12,14 +12,17 @@ This is an webpage which generate Random Quote using API and also implemented th
 ## Structure
 
 ```
-📦 
-├─ .gitignore
-├─ README.md
-├─ images
-│  └─ logo2.png
-├─ index.html
-├─ script.js
-└─ style.css
+📦  RANDOMQUOTEGENERATOR    
+├── .gitignore
+├── README.md
+├── images
+│   └── logo2.png
+├── index.html
+├── js
+│   └── script.js
+└── css
+    └── style.css
+
 ```
 
 ## Installation
