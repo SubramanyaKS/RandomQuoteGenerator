@@ -1,3 +1,42 @@
+# Dependency directories
+/node_modules
+
+# Environment variables
+.env
+
+# Build artifacts
+/build
+/dist
+
+# Logs
+/logs
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode
+.idea
+
+# User-specific files
+*.log
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled binary extensions
+*.dll
+*.exe
+*.pdb
+*.class
+
+# Dependency files
+*.pkl
+
+
 old.js
 new.html
 script1.js
