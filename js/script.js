@@ -11,14 +11,19 @@ const buttonFront = button[0];
 var quote;
 var author;
 
-fetch("https://type.fit/api/quotes")
+const fetchData = () =>{
+	fetch("https://api.quotable.io/random")
 	.then(function(response) {
 		return response.json();
 	})
 	.then(function(data) {
 		this.data = data;
+		console.log(data)
 		displayQuote1()
 });
+}
+
+fetchData();
 
 const talk =()=>{
 	message.text=quote+" by"+author;
@@ -26,9 +31,9 @@ const talk =()=>{
 }
 const displayQuote1 = () =>{
 
-	let index = Math.floor(Math.random()*data.length);
-	quote = data[index].text;
-	author = data[index].author;
+	// let index = Math.floor(Math.random()*data.length);
+	quote = data.content;
+	author = data.author;
 	if(!author){
 		author = "Anonymous"
 	}
@@ -36,7 +41,8 @@ const displayQuote1 = () =>{
 	authorFront.innerHTML = "- "+author;
 }
 function newQuote1(){
-	displayQuote1();
+	// displayQuote1();
+	fetchData();
 }
 function tweetWithText() {
 	// Replace the 'YOUR_TEXT_HERE' with the desired tweet text
