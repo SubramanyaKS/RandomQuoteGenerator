@@ -68,7 +68,8 @@ You can see the project demo in  below link:
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [Geeks for Geeks](https://www.geeksforgeeks.org/)
  - [Project Tree Generator](https://woochanleee.github.io/project-tree-generator)
-
+ 
+- Thanks to [Quotable](https://github.com/lukePeavey/quotable) for providing the quotes API.
 
 ## Contributing
 
